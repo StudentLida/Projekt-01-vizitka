@@ -1,3 +1,100 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+
+
+body {
+
+    margin: 70px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    line-height: 1,5;
+    color: /*doplnit*/;
+    text-align: left;
+}
+
+h1,
+h2 {
+    font-family:/*doplnit*/;
+    font-style:/*doplnit*/;
+   
+}
+
+section {
+
+    overflow: auto;
+}
+
+/*hlavička*/
+h1 {
+   margin: 0;
+   padding: 120px 25px;
+   font-size: 40px;
+   text-align: center;
+   color: #58595b;
+   background-color: #fff;
+
+}
+
+/**/
+h2 {
+    margin: 0;
+    padding: 20px 15px;
+    font-size: 1rem;
+    color: ;
+    background-color: ;
+   
+}
+   
+
+
+/*hlavička foto*/
+.profil {
+    float: left;
+    width: 180px;
+    height: 200px;
+    margin: 0 30px 30px 0;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+img {
+    width: 30%;
+    height: 200px;
+    border: 2px solid rgb(21, 2, 2);
+    border-radius: 8%;
+
+
+}
+
+/*
+.trek {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.Lida_let {
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.Sokol_zapad_slunce {
+
+}
+
+.Zlin {
+
+}
+
+.Sokol_let {
+
+}
+
+.Cessna_Strakonice {
+
+}
+*/
