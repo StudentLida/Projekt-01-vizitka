@@ -15,10 +15,13 @@ body {
     text-align: left;
 }
 
+
+
 h1,
 h2 {
     font-family:/*doplnit*/;
     font-style:/*doplnit*/;
+    /*float: none;*/
    
 }
 
@@ -30,19 +33,27 @@ section {
 /*hlavička*/
 h1 {
    margin: 0;
-   padding: 120px 25px;
+   padding: 60px 25px;
    font-size: 40px;
+   font-weight: 400px;  
    text-align: center;
-   color: #58595b;
+   color: burlywood;
    background-color: #fff;
-
+   
 }
+
+.Text {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 250px; /*21.04.2023*/
+    padding-right: 50px; /*21.04.2023*/
+  }
 
 /**/
 h2 {
-    margin: 0;
-    padding: 20px 15px;
-    font-size: 1rem;
+    margin: 0px; /*?*/
+    padding: 18px;
+    font-size: 1,5rem;
     color: ;
     background-color: ;
    
@@ -55,9 +66,11 @@ h2 {
     float: left;
     width: 180px;
     height: 200px;
-    margin: 0 30px 30px 0;
+    margin: 0px 50px 30px 30px; /*21.04.2023 zvýšit čtvrtou pozici */
     border-radius: 15px;
     border: 2px solid black;
+    position: absolute; /*21.04.2023*/
+
 }
 
 img {
@@ -66,6 +79,37 @@ img {
     border: 2px solid rgb(21, 2, 2);
     border-radius: 8%;
 
+
+}
+
+/*21.04.2023*/
+.Fotogalerie {
+    margin-top: 70px;
+    font-size: 20px;
+    padding-left: 13px;
+    position: relative; left: 20px;
+    /*width: 100%;*/
+    /*float: none;*/
+    /*width: 33%;*/
+    /*margin: 30px;*/
+    /*border-radius: 8%;
+    border: #282425;
+    /*overflow: auto;*/
+}
+
+/*21.04.2023*/
+.Fotogalerie img {
+    width: 32%;
+    height: 300px;
+}
+
+/*21.04.2023*/
+.Kontakt {
+
+    margin-top: 60px;
+    font-size: 20px;
+    padding-left: 13px;
+    position: relative; left:20px;
 
 }
 
@@ -98,3 +142,33 @@ img {
 
 }
 */
+
+
+
+/*Hlavní menu*/
+.menu {
+    margin: 0;
+    padding: 0;
+    padding-right: 17px; /*21.04.2023*/
+    list-style: none;
+    text-align: right;
+    color: white;
+    background-color: #282425;
+    border-top: 1px solid #9c8175;
+
+    }
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+
+    display: inline;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+
